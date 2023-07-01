@@ -489,10 +489,10 @@ img {
   width: 80%;
 }
 .skills__js {
-  width: 60%;
+  width: 80%;
 }
 .skills__react {
-  width: 0%;
+  width: 100%;
 }
 
 .skills__hph {
@@ -928,8 +928,8 @@ img {
 
   .qualification__sections {
     display: grid;
-    grid-template-columns: 0.6fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    /* justify-content: center; */
   }
 }
 
@@ -1014,7 +1014,8 @@ img {
     margin: 0 var(--mb-1);
   }
   .qualification__sections {
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 0.8fr;
+    justify-content: center;
   }
 
   .services__container {
